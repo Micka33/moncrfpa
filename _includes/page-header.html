@@ -1,0 +1,18 @@
+<section class="page-header">
+  <h1 class="project-name">{{ site.title }}</h1>
+  <h2 class="project-tagline">{{ site.tagline }}</h2>
+  <h2 class="project-tagline">Encore <span id="countdown"></span> avant la libération.</h2>
+  <a href="#" class="btn">Se connecter</a>
+</section>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/countdown/2.6.0/countdown.min.js"></script>
+<script type="text/javascript">
+var timerId =
+  countdown(
+    new Date('December 2, 2019 13:24:00'),
+    function(ts) {
+      document.getElementById('countdown').innerHTML = ts.toHTML("strong");
+    },
+    countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+</script>

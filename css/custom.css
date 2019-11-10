@@ -1,0 +1,5 @@
+.page-header {
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/images/Tribunal_de_Commerce,_Palais_de_justice_de_Paris,_8_March_2015.jpg");
+  background-size: cover;
+}
