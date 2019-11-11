@@ -1,0 +1,28 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-auth.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBwgpUSrlGvlg3Ir1KzcQvnap2K5esPGn0",
+    authDomain: "moncrfpa.firebaseapp.com",
+    databaseURL: "https://moncrfpa.firebaseio.com",
+    projectId: "moncrfpa",
+    storageBucket: "moncrfpa.appspot.com",
+    messagingSenderId: "166769264564",
+    appId: "1:166769264564:web:d8d61d3d61046b575d94e1",
+    measurementId: "G-SFV3LHRG4D"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="https://www.gstatic.com/firebasejs/ui/4.2.0/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.2.0/firebase-ui-auth.css" />
+
+<script src="{{ site.baseurl }}/js/components/auth_button.js"></script>
+<script src="{{ site.baseurl }}/js/components/firebase_auth.js"></script>
+<script src="{{ site.baseurl }}/js/page_header_app.js"></script>
